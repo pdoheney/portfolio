@@ -21,6 +21,15 @@ h2 {
     margin: 1rem 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover, #projects a:hover {
+    text-decoration: underline;
+}
+
 /* header section */
 header {
     display: flex;
@@ -35,21 +44,19 @@ header ul li {
     margin: 0 0.5rem;
 }
 
-header a {
-    text-decoration: none;
-    color: black;
-}
-
 header a:hover {
     text-decoration: underline;
 }
 
 /* main section */
-
+main {
+    margin-bottom: 2rem;
+}
 /* about me section */
 #about-me {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 3rem;
 }
 
 .img-container {
@@ -71,16 +78,59 @@ header a:hover {
 }
 
 /* Projects section */
-
-
-/* Skills section */
-
-/* Contact section */
-
-/* footer section */
-
-#contact a {
-    text-decoration: none;
+#projects {
+    margin-bottom: 3rem;
 }
 
-/* resuable classes */
+#projects ul {
+    margin-left: 2rem;
+    list-style-type: square;
+}
+
+#projects li {
+    margin: 1rem 0;
+}
+
+/* Skills section */
+#skills {
+    margin-bottom: 3rem;
+}
+
+#skills img {
+    margin: 0 1rem;
+}
+
+/* Contact section */
+#contact {
+    display: none;
+}
+#contact p, #contact a {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* footer section */
+footer {
+    background-color: #5D92F5;
+    text-align: center;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #about-me {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    * {
+        font-size: 14px;
+    }
+    header {
+        align-items: center;
+        justify-content: space-around;
+    }
+    header ul li {
+        display: block;
+    }
+}

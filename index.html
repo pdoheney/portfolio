@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css" type="text/css">
+    <script src="./scripts.js"></script>
     <title>Paul's Portfolio</title>
 </head>
 <body>
     <!-- header section -->
     <header>
-
         <h1>Paul Doheney</h1>
 
         <!-- navigation -->
         <nav>
             <ul>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#about-me" class="home-page">About Me</a></li>
+                <li><a href="#projects" class="home-page">Projects</a></li>
+                <li><a href="#skills" class="home-page">Skills</a></li>
+                <li><a href="#contact" id="contact-page">Contact</a></li>
             </ul>
         </nav>
-
     </header>
 
     <!-- main section -->
@@ -29,24 +28,36 @@
 
         <!-- about me section -->
         <div id="about-me">
-            <h2>About Me</h2>
-            <img src="./images/IMG_5718.JPG" alt="Paul Doheney standing by the water" title="Paul Doheney">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p>
-                Enim facilisis gravida neque convallis a cras semper auctor neque. Quis varius quam quisque id diam vel quam. 
-                Elit duis tristique sollicitudin nibh sit. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Semper
-                auctor neque vitae tempus quam pellentesque nec nam. Fermentum et sollicitudin ac orci phasellus egestas tellus. 
-                Donec enim diam vulputate ut. Auctor elit sed vulputate mi sit. Augue interdum velit euismod in pellentesque massa 
-                placerat duis ultricies. Proin sagittis nisl rhoncus mattis. Sed risus ultricies tristique nulla aliquet enim 
-                tortor at auctor. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Scelerisque eu ultrices vitae auctor 
-                eu augue ut lectus.
-            </p>
-        </div>
+            <div class="img-container">
+                <h2>About Me</h2>
+                <img id="img-paul" src="./images/IMG_5718.JPG" alt="Paul Doheney standing by the water" title="Paul Doheney">
+            </div>
+            <div id="about-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Enim facilisis gravida neque convallis a cras semper auctor neque. Quis varius quam quisque id diam vel quam. 
+                    Elit duis tristique sollicitudin nibh sit. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Semper
+                    auctor neque vitae tempus quam pellentesque nec nam. Fermentum et sollicitudin ac orci phasellus egestas tellus. 
+                    Donec enim diam vulputate ut. Auctor elit sed vulputate mi sit. Augue interdum velit euismod in pellentesque massa 
+                    placerat duis ultricies. Proin sagittis nisl rhoncus mattis. Sed risus ultricies tristique nulla aliquet enim 
+                    tortor at auctor. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Scelerisque eu ultrices vitae auctor 
+                    eu augue ut lectus.
+                </p>
+                <p>
+                    Enim nec dui nunc mattis enim. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Semper 
+                    feugiat nibh sed pulvinar proin gravida hendrerit. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. 
+                    Donec ultrices tincidunt arcu non sodales neque. Risus pretium quam vulputate dignissim suspendisse in est. Aliquet 
+                    nibh praesent tristique magna sit amet. Scelerisque fermentum dui faucibus in ornare quam. Porta nibh venenatis 
+                    cras sed felis eget. Dignissim diam quis enim lobortis scelerisque fermentum. Dictumst quisque sagittis purus sit 
+                    amet. Dolor morbi non arcu risus quis varius quam quisque id. Turpis nunc eget lorem dolor sed viverra ipsum nunc 
+                    aliquet. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Nunc eget lorem dolor sed.
+                </p>
+            </div>
             
         </div>
 
@@ -76,7 +87,7 @@
             <h2>Contact Information</h2>
             <p>Phone number: 781-724-8318</p>
             <p>Email: pdoheney1@gmail.com</p>
-            <p>Can also fine me on: </p>
+            <p>Can also find me on: </p>
             <a href="https://github.com/pdoheney" target="_blank">
                 <img src="./images/logos/1298743_github_git_logo_social_icon.png" alt="Github Logo" title="Github">
             </a>
@@ -84,7 +95,6 @@
                 <img src="./images/logos/317750_linkedin_icon.png" alt="Linkedin logo" title="Linkedin">
             </a>
         </div>
-
     </main>
 
     <!-- footer section -->
@@ -92,6 +102,5 @@
         <q><i>If you are working on something that you really care about, you don’t have to be pushed. The vision pulls you.</i></q>
         <span>-Steve Jobs</span>
     </footer>
-
 </body>
 </html>
