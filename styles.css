@@ -71,6 +71,7 @@ main {
 
 #about-text {
     margin-top: 2rem;
+    max-width: 65%;
 }
 
 #about-me p {
@@ -120,9 +121,15 @@ footer {
     #about-me {
         flex-direction: column;
     }
+    #about-text {
+        max-width: 100%;
+    }
+    #about-text p {
+        margin-left: 0;
+    }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 427px) {
     * {
         font-size: 14px;
     }
