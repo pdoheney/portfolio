@@ -1,0 +1,86 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+body {
+    padding: 1rem;
+} 
+
+h1 {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin: 1rem 0;
+}
+
+/* header section */
+header {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5rem;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* main section */
+
+/* about me section */
+#about-me {
+    display: flex;
+    align-items: flex-start;
+}
+
+.img-container {
+    max-width: 20rem;
+    min-width: 10rem;
+}
+
+#img-paul {
+    max-width: 100%;
+    height: auto;
+}
+
+#about-text {
+    margin-top: 2rem;
+}
+
+#about-me p {
+    margin: 1.5rem 1rem;
+}
+
+/* Projects section */
+
+
+/* Skills section */
+
+/* Contact section */
+
+/* footer section */
+
+#contact a {
+    text-decoration: none;
+}
+
+/* resuable classes */
