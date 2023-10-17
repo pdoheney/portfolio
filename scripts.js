@@ -29,4 +29,29 @@ document.addEventListener('DOMContentLoaded', () => {
             contact.style.display = 'none';
         });
     });
+
+    //change from light to dark mode
+    const changeMode = document.getElementById('mode');
+    changeMode.addEventListener('click', () => {
+        const header = document.querySelector('header');
+        const anchors = Array.from(document.getElementsByTagName('a'));
+        if( changeMode.innerHTML === '[Dark Mode]') {
+            document.body.style.backgroundColor = 'black';
+            document.body.style.color = 'white';
+            header.style.borderBottom = "1px solid white";
+            anchors.forEach(anchor => {
+                anchor.style.color = 'white';
+            });
+            changeMode.innerHTML = '[Light Mode]';
+        } else if (changeMode.innerHTML === '[Light Mode]') {
+            console.log('Test!');
+            document.body.style.backgroundColor = 'white';
+            document.body.style.color = 'black';
+            header.style.borderBottom = '1px solid black';
+            anchors.forEach(anchor => {
+                anchor.style.color = 'black';
+            });
+            changeMode.innerHTML = '[Dark Mode]';
+        }
+    });
 });
