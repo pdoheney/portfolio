@@ -1,0 +1,3 @@
+#Personal Portfolio Website
+
+Hello, this respository houses my personal portfolio website.  This website requires the use of html, css and javascript in order to be able to be used properly.  The contents of my website are an about me, my projects I have completed, the languages I know, as well as contact information should someone wish to contact me. This website is a single page application and also allows the user to switch between light and dark mode depending on user preference.  This is achieved by clicking on the top left corner under the heading where it says either Light or Dark Mode depending on your current settings. 
