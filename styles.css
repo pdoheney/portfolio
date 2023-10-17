@@ -43,10 +43,6 @@ header ul li {
     margin: 0 0.5rem;
 }
 
-header a:hover {
-    text-decoration: underline;
-}
-
 #mode {
     font-size: 0.75rem;
 }
@@ -60,6 +56,7 @@ header a:hover {
 main {
     margin: 2rem 0;
 }
+
 /* about me section */
 #about-me {
     display: flex;
@@ -113,6 +110,7 @@ main {
 #contact {
     display: none;
 }
+
 #contact p, #contact a {
     margin-left: 1rem;
     margin-bottom: 0.5rem;

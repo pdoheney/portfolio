@@ -44,7 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             changeMode.innerHTML = '[Light Mode]';
         } else if (changeMode.innerHTML === '[Light Mode]') {
-            console.log('Test!');
             document.body.style.backgroundColor = 'white';
             document.body.style.color = 'black';
             header.style.borderBottom = '1px solid black';
